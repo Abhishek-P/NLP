@@ -1,0 +1,31 @@
+Step1: Cleaning
+	For hashtags - the hash was removed, if the tag was in camelcase it was split into words.
+	URLs were removed with regex
+	Extra symbols were removed during post-tokenization traversal
+	All of text was converted to lower case
+	Tokens were stremmed and lemmatized
+	Tokens were stringified in a space seperated manner
+	
+Step 2: Vocabulary and Threshold
+    Vocabulary was constructed as a dictionary of words:count
+	Words with count below a threshold - set low ( 2 ) were replaced by a stopper string
+	
+Step 3: Trigram,Similarity
+    Trigrams were generated
+	For the selected word pairs
+	Similarity was calculated as given in point 9-12
+
+The results are as follows:
+	Wordpair         		Our Score       Word2Vec Score   Diff
+1 narendra, modi 		0.927			0.77 						0.157
+2 indian, modi 			0.977			0.813					0.164
+3	bjp, modi				0.845  			0.132					0.713
+4	bjp, india				0.845			0.055					0.790
+5	congress, india		0.908			0.519					0.399
+6	congress, bjp         0.975			0.625					0.350
+7 aaptards, india		0.998			0.114					0.884
+8 andhra telangana  	0					0.975					0.975
+9 why, wud				0					0.820					0.820
+10 india,telangana		0					0.975					0.975
+Avg Diff:																	0.6227																													
+
