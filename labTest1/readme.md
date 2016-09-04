@@ -1,6 +1,7 @@
 #LAB 1 - Similarity Assignment
 ##Methodolgy to be added
 Legend:
+
 tweets.txt -  initial input
 
 cleantweets.txt - cleanedn input
