@@ -1,0 +1,14 @@
+taliban terror 0.545454545455
+speech terror 0.344827586207
+india dubai 0.301101262423
+india uae 0.349198717949
+indian aaptards 0.328128436332
+visit speech 0.50899128269
+visit terror 0.4867862969
+congress bjp 0.484004174797
+aap bjp 0.485888462407
+aap congress 0.530117491312
+aap taliban 0.533458462543
+bjp taliban 0.535547604231
+congress taliban 0.514275134234
+Time: 5.07800006866
